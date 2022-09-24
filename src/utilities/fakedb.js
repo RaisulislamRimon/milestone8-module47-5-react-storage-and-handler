@@ -12,7 +12,7 @@ const addToDb = (id) => {
     // localStorage.setItem(id, 1);
     shoppingCart[id] = 1;
   }
-  localStorage.setItem("shopping-cart", shoppingCart);
+  localStorage.setItem("shopping-cart", JSON.stringify(shoppingCart));
 };
 
 export { addToDb };
