@@ -1,6 +1,6 @@
 const addToDb = (id) => {
-  // let shoppingCart;
-  let shoppingCart = {}; // both are same...
+  let shoppingCart;
+  // let shoppingCart = {}; // both are same...
 
   // get the shopping cart
   const storedCart = localStorage.getItem("shopping-cart");
